@@ -43,7 +43,9 @@ public class MyUI extends UI {
             }
         });
 
-        layout.addComponents(text, switchLayouts);
+        Button makeRoundTrip = new Button("Make round-trip", e -> {});
+
+        layout.addComponents(text, switchLayouts, makeRoundTrip);
 
         setContent(layout);
     }
